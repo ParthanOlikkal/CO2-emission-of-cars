@@ -1,4 +1,5 @@
-# CO2-emission-of-cars
+# Regression Project
+CO2 emission of cars
 Using simple linear regression to find the relationship between fuel consumption and CO2 emission
 
 China GDP
