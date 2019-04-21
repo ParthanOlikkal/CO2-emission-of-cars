@@ -7,7 +7,7 @@ import numpy as np
 url = "https://raw.githubusercontent.com/ParthanOlikkal/CO2-emission-of-cars/master/FuelConsumptionCo2.csv"
 
 #Load the data
-df = pd.read_csv("FuelConsumption.csv")
+df = pd.read_csv(url)
 
 #Look at the data
 df.head()
@@ -54,7 +54,7 @@ train_y = np.asanyarray(tain[['CO2EMISSIONS']])
 regr.fit (train_x, train_y)
 
 #The coefficients
-print (Coefficients: ',regr.coef_)
+print ('Coefficients: ',regr.coef_)
 print ('Intercept: ', regr.intercept_)
 
 #plot the fit line
